@@ -1,0 +1,71 @@
+   SELENIUM QUESTIONS AND ANSWERS   
+
+1.What is selenium?What are the different selenium components? Explain about selenium webdriver?
+    Selenium
+         Selenium is an automation testing tool used to test web-based applications.Selenim is not a single tool but a suite of tools.
+    Four Components of Selenium
+               * Selenium IDE
+               * RC
+              * Webdriver
+              * Grid
+    Seleium Webdriver
+            * Selenium Webdriver is the most important tool of the srelenium suite.
+           * Because of many limitations with RC,Webdriver was developed.
+           * It does not require any manual process like selenium server.
+
+2.How does selenium communicate with the web browsers?
+      Data Communication
+            * To Communicate between server and client (browser),Selenium web driver uses JSON.
+            * JSON Wire Protocol is a REST API that tranfers the information between HTTP servers.
+            * Each Browser Driver has its own HTTP server.
+
+3.What are the locators available to find an element using selenium?
+          The Different locators in selenium are;
+               * By CSS ID:find_element_by_id.
+               * By CSS class name: find_element_by_class_name.
+               * By name attribute: find_element_by_name.
+               * By DOM structure or xpath: find_element_by_xpath.
+               * By link text: find_element_by_link_text.
+               * By partial link text: find_element_by_partial_link_text.
+
+4.Why ID is preferable than X-Path?
+      * This is because:ID is considered as unique key so there cannot be more than 1 elements for same ID.
+      * While X-Path is crewated using relative path/position of elements,so there can be cases when we can get 2 or more elements for same xpath.
+
+5.How to Select Value in dropdown?
+           * selectByVisibleText(strings args)......
+           * selectByIndex(string args)
+          * This method takes the index of the option to select in the dropdown.....
+         * Syntax-Select s = new
+             Select(driver.findElement(By.id("<<idexp>>")));
+             s.selectByValue(string args)
+
+6.What is the difference between Absolute Path and Relative Path?
+                Absolute Path
+                        * Absolute path uses complete path from the Root Element to the desired element.
+                        * It begins with the single forward slash(/).
+               Relative Path
+                        * Relative path is defined as the path related to the present working directly(pwd).
+                        * It begins with the double forward slash(//).
+7.How to verify if the given check box is checked or not (it is not taught but you can explore)     Try   here: http://leafground.com/pages/checkbox.html
+
+
+
+
+
+8.Difference between System.setProperty  and WebDriverMnager?
+
+
+
+9.Write the syntax for preceding and following x-paths.
+           * Tagname: Tagname of the particular node.@:Select attribute.
+           * Attribute: Attribute name of the node.
+          * Value: Value of the attribute.
+                *The following_sibling and preceding_sibling axes contain the siblings  before or after the context node,and the following and preceding axes contain all nodes in the document before or after the context node,but:None of these axes contain attribute or namespace nodes.
+
+10.How to get an attribute value using selenium webdriver?
+        String value= driver.findElement(by.id("Web element id")).getAttribute("Attribute name");
+                  * Navigate to the dummy website.
+                  * Get the image source value of the image in the Homepage Front-End and print the same.
+                 * Verify the placeholder value of the Join Newsletter text field.
+      

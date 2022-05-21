@@ -1,0 +1,75 @@
+20/05/2022  FRIDAY
+       JAVA QUESTIONS AND ANSWERS.
+ Answer All The Questions
+
+   1.Explain about the main method in java?
+        public static void main(string args[])
+           Public:To access Specifier.
+           Static:It is an Keyword.
+           Void:In Java,Every Method Has the Return Type.
+           Main:It is an Method Name.
+          String args:It is an Array of String Type.
+   2.What are the different control flow statements available in java?
+      The Different control flow statements are;
+                    * Decision Making Statements.
+                    * Loop Statements.  
+                     * Jump Statements.
+            Decision Making Statements
+                    * if statements.
+                   * switch statements.
+          Loop Statements
+                  * do while loop.
+                  * while loop.
+                 * for loop.
+                 * for-each loop.
+        Jump Statements
+                * break statement.
+                * continue statement.
+   3.What is the Difference Between break and contine statements?
+        Break Statement.
+             *The break statement is used to terminate the loop immediately.
+             *Break keyword is used to indicate break statements.
+      Continue Statements.
+             *The continue statement is used to skip  the current iteration of the loop.
+             *Continue keyword is used to indicate continue statements.
+   4.What is an Array?How will you declare an array in java?
+           Array
+                * Arrays are used to store multiple values in a single variable,instead of declaring seperate variables for each value.
+                * To declare an array,define the variable type with square brackets:String[]cars;We have now declared a variable that holds an array of strings.
+   5.When will you get Array Index Out of Bounds Exception?
+            The Array Index Out Of Bounds Exception thrown if a program tries  to access an array index that is negative,greaterthan,or equal to the length of the array.
+
+   6.Define the Syntax to create an object for a class.
+                 When we create an instance of the class by using the new keyword,it allocates memory(heap) for the newly created object and also returns of that object to that memory. The syntax for creating an object is: className object = new ClassName();
+             What are the naming conventions to be followed while creating a class.
+                       Class names should be nouns,in mixed cases with the first letter of each internal word capitalized.
+                    Method and a variable.Explain with examples.  
+
+
+   7.What is variable?How will you declare a variables in java?
+               * A Varaibles is a place to store the a piece of data.it has a name ,a value,and a type.
+                       * To declare (create)a variable,you will specify the type,leave at least one space,then the name for the variable and end the line with a semicolon(;).
+
+
+   8.What is String in java?Is it a Data Type?
+                   String is a class and it is Non primitive Data Type.A String is generally considered as a data type and is often implemented as an array data structures of bytes(or words) that stores a sequence of elements,typically characters,using some character encoding.
+
+   9.What are the different ways to create the string object in java?
+       There are Two Ways to create the string object;
+           Using String literal:Java string literal is created by using double quotes.
+                        String s="Welcome";
+           Using New keyword:Java String is created by using a keyword "new"
+                         String s= new string("Welcome");
+   10. What is the Difference between .Equals and ==?
+                       Equals.
+                             *Equals is a method of object class.
+                             *Method should be used for content comparison.
+                      ==
+                         *Should be used during reference comparison.
+                         *Check if both references points to same location or not. 
+
+
+
+
+                                
+             
